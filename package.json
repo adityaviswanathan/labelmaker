@@ -1,0 +1,22 @@
+{
+    "name": "@adityaviswanathan/labelmaker",
+    "version": "0.0.0",
+    "description": "GitHub action to sync a repo's issue labels",
+    "keywords": [],
+    "author": "Aditya Viswanathan (aditya@adityaviswanathan.com)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adityaviswanathan/labelmaker.git"
+    },
+    "engines": {
+        "node": ">=12",
+        "npm": ">=6.9.0"
+    },
+    "dependencies": {
+        "@actions/core": "^1.2.3",
+        "github-label-sync": "^1.4.2"
+    },
+    "devDependencies": {},
+    "main": "./index.js",
+    "scripts": {}
+}

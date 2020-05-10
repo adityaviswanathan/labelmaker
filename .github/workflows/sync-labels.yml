@@ -1,0 +1,9 @@
+on: [issues, pull_request]
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    name: Sync repository labels
+    steps:
+      - uses: adityaviswanathan/labelmaker@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
