@@ -1,4 +1,4 @@
-name: origami-labels
+name: labelmaker
 description: Sync a repo's issue labels
 inputs:
   github-token:
