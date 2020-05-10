@@ -1,4 +1,4 @@
-on: [issues, pull_request]
+on: [issues, pull_request, push]
 jobs:
     sync-labels:
         runs-on: ubuntu-latest
