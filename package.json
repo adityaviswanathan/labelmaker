@@ -13,11 +13,11 @@
         "npm": ">=6.9.0"
     },
     "dependencies": {
-        "@actions/core": "^1.2.4",
+        "@actions/core": "^1.2.6",
         "github-label-sync": "^1.4.2"
     },
     "devDependencies": {
-        "@actions/core": "^1.2.4"
+        "@actions/core": "^1.2.6"
     },
     "main": "./index.js",
     "scripts": {}
